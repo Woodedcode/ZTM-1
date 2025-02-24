@@ -8,8 +8,8 @@
 		First Name: <input type="text" placeholder="First name" name="firstname"><br>
 		last Name: <input type="text" placeholder="Last name" name="lastname"><br>
 		Email: <input type="email" placeholder="Email" name="email" required><br>
-		Password: <input type="password" min="5" value="password"><br>
-		Birthday: <input type="date"><br>
+		Password: <input type="password" min="5" name="password"><br>
+		Birthday: <input type="date" name="birthday"><br>
 		Gender: <br>
 		<input type="radio" name="gender" value="male">Male<br>
 		<input type="radio" name="gender" value="female">Female<br>
@@ -19,16 +19,25 @@
 		<input type="checkbox" name="dog">Dog<br>
 		<input type="checkbox" name="monkey">Monkey<br>
 		Cars: <br>
-		<select>
-			<option value="jeep" name="jeep">Jeep</option>
-			<option value="4runner" name="4runner">4Runner</option>
-			<option value="honda" name="honda">Honda</option> name=""
-			<option value="chevrolet" name="chevrolet">Chevrolet</option>
-			<option value="ford" name="ford">Ford</option>
-			<option value="tesla" name="tesla">Tesla</option>
+		<select name="cars">
+			<option value="jeep">Jeep</option>
+			<option value="4runner">4Runner</option>
+			<option value="honda">Honda</option> name=""
+			<option value="chevrolet">Chevrolet</option>
+			<option value="ford">Ford</option>
+			<option value="tesla">Tesla</option>
 		</select><br>
 		<input type="submit" value="Register!">
 		<input type="reset">
 	</form>
 </body>
 </html>
+
+?firstname=fake
+&lastname=man
+&email=fake%40gmail.com
+&password=12345
+&birthday=2001-01-01
+&gender=other
+&cat=on
+&cars=tesla
