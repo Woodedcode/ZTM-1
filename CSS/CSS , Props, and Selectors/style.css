@@ -1,12 +1,24 @@
+body{
+    background-image: url(/imgs/photo-1718563552473-2d97b224e801.avif);
+    background-size: cover;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
 h2{
-    color: red;
-    background-color: black;
+    color: #AA4139;
+    text-align: center;
+    border: 5px solid rgba(255, 176, 170, 0.5);
+    cursor: pointer;
 }
 
 p{
     color: pink;
 }
 
-#h2-header{
+p{
     color: green;
 }
