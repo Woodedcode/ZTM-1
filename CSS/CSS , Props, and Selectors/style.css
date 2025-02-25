@@ -1,5 +1,9 @@
+*{
+   text-align: right; 
+}
+
 body{
-    background-image: url(/imgs/photo-1718563552473-2d97b224e801.avif);
+    background-image: url(/imgs/photo-1723444059774-743b0e6d19e9.avif);
     background-size: cover;
 }
 
@@ -8,7 +12,7 @@ li{
     display: inline-block;
 }
 
-h2{
+h2, p{
     color: #AA4139;
     text-align: center;
     border: 5px solid rgba(255, 176, 170, 0.5);
@@ -21,4 +25,19 @@ p{
 
 p{
     color: green;
+}
+.webtext:last-child{
+    border: 5px dashed green;
+}
+
+.active{
+    color: red;
+}
+
+#div1{
+    background: rgba(0, 0, 255, 0.25);
+}
+
+#div2{
+    background: rgba(255, 0, 0, 0.25);
 }
